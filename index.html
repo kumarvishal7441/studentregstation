@@ -7,6 +7,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <section class="formSub">
+        <h2>Student Regstration Dashboard </h2>
+        <form action="submit" class="inputField">
+            <label for="firstN">First name</label>
+            <input type="text" id="firstName" placeholder="Firstname">
+            <label for="lastN">Last name</label>
+            <input type="text" id="lastName" placeholder="Lastname">
+            <label for="rollN">Roll number</label>
+            <input type="text" id="rollNum" placeholder="Rollnumber">
+            <label for="mobileN">Mobile Number</label>
+            <input type="text" id="mobileNum" placeholder="Mobilenumber">
+            <label for="email">Email Id</label>
+            <input type="email" id="emailId" placeholder="enter your correct email id">
+            <input type="button" class="btn" id="btn" value="submit">
+        </form>
+        <!-- <button id="submit">Submit</button> -->
+    </section>
+    <div class="studentdata">
+        <h2>all student management</h2>
+        <table class="data1">
+            <thead>
+            <tr class="tabrow">
+                <th>Full name</th>
+                <th>Mobile</th>
+                <th>Rollnumber</th>
+                <th>Emailid</th>
+            </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+
+        <img src="" alt="" >
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .formSub{
+    align-items: center;
+} */
+
+body{
+    background:radial-gradient() ;
+
+}
+
+.inputField{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* width: 50%; */
+    align-content: center ;
+
+}
+
+.studentdata{
+    text-align: center;
+    margin-top: 60px;
+    margin-inline: 100px;
+}
+
+.data1{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.tabrow{
+    justify-content: space-evenly;
+
+}
+
+.add{
+    color: blue;
+    background-color: aqua;
+}
+
+.border{
+    border: 3px solid black;
+}
+
+
+
+    
