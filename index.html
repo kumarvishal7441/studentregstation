@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <center><h1>Student dashboard </h1></center>
+<section class="studreg">
+    <div class="studinput">
+        <h1>student register dashboard input</h1>
+        <div>
+            <form action="#">
+                <div class="studdata">
+                    <label for="fullname">Full name</label>
+                    <input type="text" required id="fullname" placeholder="please enter your full name">
+                    <label for="emailid">Email id</label>
+                    <input type="email" required id="emailid" placeholder="please enter your correct emailid">
+                    <label for="studroll">Student rollnumber</label>
+                    <input type="text" required id="studroll" placeholder="please input student correct roll number">
+                    <label for="mobnum">Mobile number</label>
+                    <input type="tel" id="mobnum" required maxlength="10" size="10" placeholder="please enter your correct mobile number">
+                    <button id="but">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="studdash">
+        <h1>student full detail</h1>
+        <table >
+            <thead>
+            <tr>
+                <th>Full name</th>
+                <th>Mobile number</th>
+                <th>Roll number</th>
+                <th>Email id</th>
+                <th>action task</th>
+            </tr>
+            </thead>
+            <tbody id="tablebody">
+
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<script src="app.js"></script>
 </body>
 </html>
